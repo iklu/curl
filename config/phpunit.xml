@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="../Autoloader.php">
+    <testsuites>    
+	<testsuite name="curl_test">
+		<directory>../tests/library/HttpRequester</directory>
+	</testsuite>
+    </testsuites>
+</phpunit>

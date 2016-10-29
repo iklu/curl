@@ -1,9 +1,9 @@
 <?php
-namespace tests\library\HttpRequester;
+namespace tests\library\Resources;
 
 use src\library\HttpRequester\Curl;
 
-class CurlTest extends \PHPUnit_Framework_TestCase
+class ResourcesTest extends \PHPUnit_Framework_TestCase
 {
 	public function testGetRequest()
 	{
